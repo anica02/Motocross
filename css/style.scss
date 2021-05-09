@@ -70,6 +70,10 @@ body{
     color:#fff;
     background-color: #34393f;
     border-color:#fff;
+    
+}
+.btn-primary:focus{
+    background-color: #34393f;
 }
 .ar-vh50{
     height: 45rem!important;
@@ -187,29 +191,16 @@ body{
     width:inherit;
     height:100%;
     right:0.4%;
+    transition: 0.3s;
 
 }
 .ar-info{
     text-align: center;
     color:$narandzasta;
-    animation-fill-mode: forwards;
 }
 .card:hover .ar-middle{
     display: block;
     background: rgba(52, 57, 63,0.9);
-}
-.card:hover .ar-info{
-    animation:text 0.5s ;
-}
-@keyframes text {
-   0%{
-     top:0%; }
-    50%{
-     top:50%;
-    } 
-    100%{
-        top:50%;
-    }
 }
 .ar-mt{
     margin-top: -3rem;
