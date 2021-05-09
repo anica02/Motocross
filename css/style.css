@@ -236,6 +236,15 @@ body {
   width: 19rem !important;
 }
 
+@media screen and (max-width: 1030px) {
+  .card .ar-middle .ar-info h5 {
+    font-size: 15px !important;
+  }
+  .card .ar-middle .ar-info h6 {
+    font-size: 11px !important;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .ar-vh50 {
     height: 30rem !important;
@@ -246,6 +255,16 @@ body {
   .info {
     width: 100% !important;
     margin-top: 35px !important;
+  }
+  .card .ar-middle .ar-info {
+    text-align: center;
+    margin-top: 20%;
+  }
+  .card .ar-middle .ar-info h5 {
+    font-size: 25px !important;
+  }
+  .card .ar-middle .ar-info h6 {
+    font-size: 21px !important;
   }
 }
 
@@ -264,6 +283,21 @@ body {
   nav form {
     width: 100% !important;
     padding-bottom: 10px !important;
+  }
+  .card .ar-middle .ar-info h5 {
+    font-size: 23px !important;
+  }
+  .card .ar-middle .ar-info h6 {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .card .ar-middle .ar-info h5 {
+    font-size: 20px !important;
+  }
+  .card .ar-middle .ar-info h6 {
+    font-size: 16px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
